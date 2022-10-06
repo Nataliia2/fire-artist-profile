@@ -1,0 +1,172 @@
+body {
+  font-family: "Roboto", sans-serif;
+  letter-spacing: 0.03em;
+  color: #757575;
+}
+@media screen and (min-width: 480px) {
+  body {
+    display: flex;
+  }
+}
+
+h1,
+h2,
+h3,
+h4,
+p,
+ul {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+ul,
+ol {
+  padding: 0;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+a {
+  padding-left: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+  text-decoration: none;
+}
+
+.container {
+  width: 100%;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
+}
+@media screen and (min-width: 480px) {
+  .container {
+    width: 480px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .container {
+    width: 768px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .container {
+    width: 1200px;
+  }
+}
+
+.list {
+  list-style: none;
+}
+
+.profil {
+  background-color: #212121;
+  padding-top: 10px;
+  padding-bottom: 50px;
+  height: 100%;
+  width: 70%;
+}
+
+.my-photo {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.contacts {
+  fill: #ffffff;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
+.mail-item {
+  color: antiquewhite;
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 1.12;
+  letter-spacing: 0.02em;
+  padding-right: 30px;
+  transition-timing-function: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.mail-item:hover, .mail-item:focus {
+  color: #2196f3;
+  fill: #2196f3;
+}
+
+.social-command {
+  display: flex;
+  justify-content: space-evenly;
+  fill: #ffffff;
+}
+
+.social {
+  fill: #ffffff;
+  margin-top: 50px;
+}
+.social:hover, .social:focus {
+  fill: #2196f3;
+}
+
+.link-size {
+  margin-top: 20px;
+}
+
+.skill {
+  padding-top: 20px;
+  font-weight: 700;
+  color: antiquewhite;
+}
+
+.skill-item {
+  color: #ffffff;
+}
+
+.portfolio {
+  padding-top: 20px;
+  padding-left: 20px;
+  padding-bottom: 50px;
+}
+
+.header {
+  color: #2f303a;
+  font-weight: 700;
+}
+
+.vacancy {
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 24px;
+  color: #2f303a;
+}
+
+.header-work {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  font-weight: 700;
+  color: #2f303a;
+}
+
+.video-li {
+  margin-bottom: 10px;
+}
+
+.video {
+  display: block;
+}
+
+.photo {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.photo-li {
+  margin-bottom: 20px;
+  margin-right: 20px;
+}
+.photo-li:nth-child(2n) {
+  margin-right: 0;
+}/*# sourceMappingURL=main.css.map */
